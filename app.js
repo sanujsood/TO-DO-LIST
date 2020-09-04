@@ -12,7 +12,6 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 const items = [];
-const workItems = [];
 
 app.get("/", function(req, res) {
 
